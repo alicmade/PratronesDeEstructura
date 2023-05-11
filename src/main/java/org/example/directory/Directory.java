@@ -14,7 +14,7 @@ public class Directory implements FileSystemItem {
         this.name = name;
         this.children = new ArrayList<>();
     }
-
+    @Override
     public String getName() {
         return name;
     }
@@ -26,7 +26,7 @@ public class Directory implements FileSystemItem {
     public void removeChild(FileSystemItem item) {
         children.remove(item);
     }
-
+    @Override
     public int getSize() {
         int totalSize = 0;
         for (FileSystemItem item : children) {

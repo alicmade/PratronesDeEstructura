@@ -1,6 +1,5 @@
 package org.example.factories;
 
-
 import org.example.composite.FileSystemItem;
 
 public interface FileSystemFactory {

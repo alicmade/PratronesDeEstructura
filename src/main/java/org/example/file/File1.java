@@ -1,6 +1,5 @@
 package org.example.file;
 
-
 import org.example.composite.FileSystemItem;
 
 public class File1 implements FileSystemItem {
@@ -11,11 +10,11 @@ public class File1 implements FileSystemItem {
         this.name = name;
         this.size = size;
     }
-
+    @Override
     public String getName() {
         return name;
     }
-
+@Override
     public int getSize() {
         return size;
     }

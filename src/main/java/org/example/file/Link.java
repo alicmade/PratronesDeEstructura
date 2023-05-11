@@ -11,11 +11,11 @@ public class Link implements FileSystemItem {
         this.name = name;
         this.target = target;
     }
-
+    @Override
     public String getName() {
         return name;
     }
-
+    @Override
     public int getSize() {
         return target.getSize();
     }
