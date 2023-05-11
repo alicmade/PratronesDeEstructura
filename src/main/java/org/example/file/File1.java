@@ -1,4 +1,7 @@
-package org.example;
+package org.example.file;
+
+
+import org.example.composite.FileSystemItem;
 
 public class File1 implements FileSystemItem {
     private String name;
